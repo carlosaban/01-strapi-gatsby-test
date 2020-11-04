@@ -22,7 +22,7 @@ export default function LayoutBasic(props) {
     console.log(data)
     return (
         <div>
-            <h1>{data.site.siteMetadata.title}}</h1>
+            <h1>{data.site.siteMetadata.title}</h1>
             <Link to="/">Index</Link>
             <Link to="/about">About</Link>
             {children}
